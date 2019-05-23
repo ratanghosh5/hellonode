@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("ratghosh/hellonode")
+        app = docker.build("ratanghosh5/hellonode")
     }
 
     stage('Test image') {
